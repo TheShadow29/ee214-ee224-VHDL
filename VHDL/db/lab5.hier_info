@@ -1,0 +1,15 @@
+|lab5
+x1 => w.IN0
+x1 => w.IN0
+x0 => s0.IN0
+x0 => z.IN0
+x0 => s0.IN0
+y1 => w.IN1
+y1 => w.IN1
+y0 => s0.IN1
+y0 => z.IN1
+y0 => s0.IN1
+s1 <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s0 <= s0.DB_MAX_OUTPUT_PORT_TYPE
+
+

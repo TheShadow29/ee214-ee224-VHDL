@@ -1,0 +1,27 @@
+ghdl -a twobitadder.vhd   
+	see if there is any error.
+
+entity for logic design interface with external world (here krypton board)
+
+x1,x0,y1,y0: in bit  
+	input bits
+
+architecture: 
+
+signal:
+
+ghdl -a testbench.vhd  
+	syntax error
+
+ghdl -m testbench
+	make an executable file 
+
+./testbench --stop-time = 100ns --vcd=run.vcd
+	--stop-time for gtk execution
+		>will show any error in logic
+
+use assert statement in vhdl code for cout
+
+gtkwave run.vcd
+	>adjust time scale by fit to page
+

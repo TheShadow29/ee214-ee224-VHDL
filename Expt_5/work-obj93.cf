@@ -1,0 +1,7 @@
+v 3
+file . "testbench.vhd" "20160127211700.000" "20160128143248.479":
+  entity testbench at 3( 34) + 0 on 21;
+  architecture behave of testbench at 5( 68) + 0 on 22;
+file . "twobitadder.vhd" "20160127171356.000" "20160128143238.727":
+  entity twobitadder at 3( 32) + 0 on 19;
+  architecture formulas of twobitadder at 8( 121) + 0 on 20;
